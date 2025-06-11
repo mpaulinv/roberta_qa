@@ -53,12 +53,6 @@ Datasets: SQuAD, Adversarial SQuAD, Quoref
 Augmentation: TextAttack library (synonym replacement, back-translation, CLARE)
 Analysis: Logistic regression for error pattern identification
 
-Future Work
-
-Manual augmentation of "why" questions for higher quality training data
-Investigation of specialized architectures for causal reasoning
-Development of better evaluation metrics for complex QA tasks
-Exploration of few-shot learning approaches for rare question types
 
 Citation
 If you use this work in your research, please cite:
@@ -68,3 +62,5 @@ If you use this work in your research, please cite:
   year={2024},
   note={Research project examining RoBERTa limitations on causal reasoning questions}
 }
+
+Note: The code for this project is private. 
